@@ -1,0 +1,67 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 2rem;
+    margin-top: 35px;
+}
+
+.profile span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    
+    text-align: center;
+    
+    color: #BB99DD;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+    box-sizing: border-box;
+    border: 3px solid white;
+    outline: 2px solid #BB99DD;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+.link-container button {
+    width: 326px;
+    height: 49px;
+    
+    border-radius: 4px;
+    border: 2px solid #BB99DD;
+
+    color: #BB99DD;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.social-media-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+    padding-top: 2rem;
+}
